@@ -5,57 +5,59 @@
 }
 
 body {
-    background-color: #7cc92e;
+    background-color: whitesmoke;
 }
 
 .header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-
-.header h1 .seo {
-    color: #d9dcd6;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightgrey;
+    color: black;
+    border: solid blue 2px;
 }
 
 .header nav {
     padding-top: 15px;
+    margin-top: 30px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 
-.header nav ul {
-    list-style-type: none;
-}
-
 .header nav ul li {
+    list-style-type:none;
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
+.header a {
+    color: darkslategrey;
     text-decoration: none;
+}
+.header a:hover {
+    background-color:#eb2523;
+    color:white;
+    text-decoration: none;
+    
 }
 
 .about{
-    background-color: blueviolet;
+    background-color: whitesmoke;
+    border: solid 2px black;
+    display: flex;
+    margin-top: 100px;
 
 }
 
+.about p{
+   
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 2px black;
+   
+   
+}
 .about img {
     width: 300px;
-    display: inline;
-    margin-left: 600px;
-    
 }
 
 .my-work{
@@ -65,12 +67,30 @@ a {
 
 .my-work img{
     width: 300px;
+    margin-top: 100px;
 }
 
-.contact-me{
-
+.contact-me nav {
+    font-family: 'Courier New', Courier;
+    font-size: 15px;
+    border: solid white 3px;
 }
 
+.contact-me nav ul {
+    list-style-type: none;
+    margin-right: 500px;
+}
+
+.contact-me nav ul li {
+    float: right;
+    display: inline-flex;
+    margin: auto;
+   
+  
+}
+.contact-me nav ul li img {
+    width: 25px;
+}
 .footer{
 
 }
