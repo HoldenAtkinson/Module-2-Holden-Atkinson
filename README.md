@@ -1,6 +1,6 @@
 # Module-2-Holden-Atkinson
 
-##Directions for project
+##Directions
 For this project we need to create a portfolio website to demonstrate our skills in HTML and CSS. 
 
 ###Requirements
